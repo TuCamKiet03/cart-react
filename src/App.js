@@ -26,18 +26,19 @@ function App() {
       <div className="container-pageHome">
         <Header />
 
-        <Home/>
-        {/* <Routes>
+        {/* <Home/> */}
+        <Routes>
           <Route path="/" element={Home()} />
           <Route
-            path="/Food-Rice-Restaurant-Location"
+            path="/a"
             element={FoodRiceRestaurantLocation()}
           />
           <Route
             path="/Detail-Own-Restaurant-Food-Rice"
             element={<OwnRestaurant />}
           />
-        </Routes> */}
+        </Routes>
+
 
         <Footer />
       </div>

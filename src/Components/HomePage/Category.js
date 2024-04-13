@@ -4,7 +4,7 @@ import { Routes, Route, Link, Router } from "react-router-dom";
 function ItemCategory(props) {
   return (
     <div className="box-item-category">
-      <Link to="/a">
+      <Link to="/Detail-Own-Restaurant-Food-Rice">
         <div className="item-food-special-offers">
           <img src={props.src} alt={props.alt} loading="lazy" />
           <div className="info-item-food-special-offers">
@@ -12,9 +12,9 @@ function ItemCategory(props) {
           </div>
         </div>
       </Link>
-      <Routes>
+      {/* <Routes>
         <Route path="/a" element={FoodRiceRestaurantLocation}></Route>
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

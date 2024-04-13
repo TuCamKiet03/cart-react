@@ -28,7 +28,7 @@ function App() {
 
         {/* <Home/> */}
         <Routes>
-          <Route path="/" element={Home()} />
+          <Route path="/cart-react" element={Home()} />
           <Route
             path="/a"
             element={FoodRiceRestaurantLocation()}

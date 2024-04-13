@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function FitemFood(props) {
   return (
     <div className="box-itemFood">

@@ -1,9 +1,10 @@
-import { Routes, Route, Link } from "react-router-dom";
 import ItemsCatagory from "../../Props/DataHome/dataItemCategorysGrapFoodHome";
+import { FoodRiceRestaurantLocation } from "../../Components/FoodRiceLocation/FoodRiceRestautantLocation";
+import { Routes, Route, Link, Router } from "react-router-dom";
 function ItemCategory(props) {
   return (
     <div className="box-item-category">
-      <Link to="/Food-Rice-Restaurant-Location" >
+      <Link to="/a">
         <div className="item-food-special-offers">
           <img src={props.src} alt={props.alt} loading="lazy" />
           <div className="info-item-food-special-offers">
@@ -11,6 +12,9 @@ function ItemCategory(props) {
           </div>
         </div>
       </Link>
+      <Routes>
+        <Route path="/a" element={FoodRiceRestaurantLocation}></Route>
+      </Routes>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { Component } from "react";
 const itemCategory = [
   {
     id: 0,
-    href: "Food-Rice-Restaurant-Location",
+    href: "/#/Food-Rice-Restaurant-Location",
     src: "https://food-cms.grab.com/compressed_webp/cuisine/144/icons/Rice_e191965ccd6848a3862e6a695d05983f_1547819238893335910.webp",
     title: "Cơm",
   },

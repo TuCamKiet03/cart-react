@@ -25,7 +25,8 @@ function App() {
     <div className="container-display-appWeb">
       <div className="container-pageHome">
         <Header />
-        <FoodRiceRestaurantLocation/>
+
+        <Home/>
         {/* <Routes>
           <Route path="/" element={Home()} />
           <Route

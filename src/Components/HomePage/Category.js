@@ -2,14 +2,14 @@ import ItemsCatagory from "../../Props/DataHome/dataItemCategorysGrapFoodHome";
 function ItemCategory(props) {
   return (
     <div className="box-item-category">
-      <a href={props.href} role="button">
+      <Link to="/Food-Rice-Restaurant-Location" >
         <div className="item-food-special-offers">
           <img src={props.src} alt={props.alt} loading="lazy" />
           <div className="info-item-food-special-offers">
             <p>{props.title}</p>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   );
 }

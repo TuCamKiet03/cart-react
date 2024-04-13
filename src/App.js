@@ -26,11 +26,10 @@ function App() {
       <div className="container-pageHome">
         <Header />
 
-        {/* <Home/> */}
         <Routes>
           <Route path="/cart-react" element={Home()} />
           <Route
-            path="/a"
+            path="/Food-Rice-Restaurant-Location"
             element={FoodRiceRestaurantLocation()}
           />
           <Route

@@ -28,7 +28,7 @@ function FHeader() {
   return (
     <header className="box-headerHome" style={{ backgroundColor: isBgColor }}>
       <div className="container-title-grapfoodhome">
-        <a href="/">
+        <Link to="/cart-react">
           <div className="logo-grapfood">
             <img
               src={`${isBgImg}`}
@@ -36,7 +36,7 @@ function FHeader() {
               loading="lazy"
             />
           </div>
-        </a>
+        </Link>
 
         <div className="box-option-menu-action">
           <div className="btn-add-cart">

@@ -1,7 +1,7 @@
 export function FitemFood(props) {
   return (
     <div className="box-itemFood">
-      <a href={props.href} role="button">
+      <Link to="/Detail-Own-Restaurant-Food-Rice">
         <div className="item-food-special-offers">
           <img src={props.src} alt={props.alt} loading="lazy" />
 
@@ -32,7 +32,7 @@ export function FitemFood(props) {
             </div>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   );
 }
